@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EdventureLink</title>
+    <style>
+        /* General Reset */
+        body, h1, h2, h3, p, ul, li {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+            padding-top: 60px;
+        }
+        header, nav, main, footer {
+            width: 100%;
+            padding: 20px;
+        }
+        header {
+            background: #0056b3;
+            color: #fff;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+        nav {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            position: fixed;
+            top: 60px;
+            width: 100%;
+            z-index: 999;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            display: inline-block;
+            padding: 10px 0;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding-top: 120px;
+        }
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            max-width: 1000px;
+        }
+        h1, h2, h3 {
+            margin-bottom: 10px;
+        }
+        footer {
+            background: #222;
+            color: #fff;
+            text-align: center;
+            padding: 10px 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        /* Styles for collapsible subsections */
+        details {
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+            background: #f9f9f9;
+        }
+        summary {
+            font-weight: bold;
+            cursor: pointer;
+        }
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            body {
+                padding-top: 100px;
+            }
+            nav {
+                top: 100px;
+            }
+            main {
+                padding-top: 160px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to EdventureLink</h1>
+        <p>Your gateway to academic resources and support.</p>
+    </header>
+    <nav>
+        <a href="#academic-support">Academic Support</a>
+        <a href="#online-resources">Online Resources</a>
+        <a href="#student-community">Student Community</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+    <main>
+        <section id="academic-support">
+            <h2>Academic Support Services</h2>
+            <p>We offer a range of academic support services including tutoring, writing assistance, and study workshops to help you excel in your studies.</p>
+            <details>
+                <summary>Tutoring Services</summary>
+                <p>Our tutoring services cover various subjects and are available both online and on-campus.</p>
+            </details>
+            <details>
+                <summary>Writing Assistance</summary>
+                <p>Get help with your essays and reports from our experienced writing advisors.</p>
+            </details>
+            <details>
+                <summary>Study Workshops</summary>
+                <p>Join our workshops to develop effective study habits and exam techniques.</p>
+            </details>
+        </section>
+        <section id="online-resources">
+            <h2>Online Resources</h2>
+            <p>Access a variety of online resources such as e-books, journals, and research databases to aid your learning and research.</p>
+            <details>
+                <summary>E-Books</summary>
+                <p>Explore our extensive collection of e-books across different disciplines.</p>
+            </details>
+            <details>
+                <summary>Journals</summary>
+                <p>Stay updated with the latest research through our subscribed journals.</p>
+            </details>
+            <details>
+                <summary>Research Databases</summary>
+                <p>Utilize our databases to find reliable sources for your assignments and projects.</p>
+            </details>
+        </section>
+        <section id="student-community">
+            <h2>Student Community Forums</h2>
+            <p>Join our student community forums to connect with peers, share knowledge, and collaborate on projects and study groups.</p>
+            <details>
+                <summary>Discussion Boards</summary>
+                <p>Participate in discussions on various academic topics and interests.</p>
+            </details>
+            <details>
+                <summary>Project Collaboration</summary>
+                <p>Find partners for group projects and extracurricular activities.</p>
+            </details>
+            <details>
+                <summary>Social Events</summary>
+                <p>Stay informed about upcoming social events and networking opportunities.</p>
+            </details>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or need further assistance, feel free to reach out to us.</p>
+            <ul>
+                <li>Email: support@edventurelink.com</li>
+                <li>Phone: +44 20 7946 0123</li>
+                <li>Address: 123 Academic Lane, London, UK</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 EdventureLink. All rights reserved.</p>
+    </footer>
+</body>
+</html>
